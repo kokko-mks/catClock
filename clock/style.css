@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #253e3e;
+}
+
+.container1 {
+    width: 240px;
+    height: 180px;
+    border: 1px solid #515156;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./cat.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.container2 {
+    margin-top: 20px;
+}
+
+.bar {
+    width: 160px;
+    height: 1px;
+    background-color: #fff;
+}
+
+.date {
+    text-align: center;
+}
+
+.timer {
+    text-align: center;
+}
